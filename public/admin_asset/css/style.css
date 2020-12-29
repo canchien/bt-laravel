@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+    font-family: "Open Sans",sans-serif;
+    font-size: .875rem;
+    color: #677788;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: #1e2022;
+}
+.display-4 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.bg-img{
+    width: 100%;
+    height: 32rem;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyMCIgaGVpZ2h0PSI2OTgiIHZpZXdCb3g9IjAgMCAxOTIwIDY5OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjE5MjAiIGhlaWdodD0iNjk4IiBmaWxsPSIjRTVFNUU1Ii8+CjxnIGNsaXAtcGF0aD0idXJsKCNjbGlwMCkiPgo8cGF0aCBkPSJNMTkyMCAtNzE0LjQwM0gwVjE0MTIuNEgxOTIwVi03MTQuNDAzWiIgZmlsbD0iI0Q5REVFQSIvPgo8cGF0aCBkPSJNMTI5OC45IC01NDg4LjcyTDI2MTguNSAxMzAwLjAyTDE3MDIuOCAxODQyLjAyQzE2NTEuNiAxNjkwLjU2IDE1NjkuNiAxNTY1LjI2IDE0NzkuOSAxNDgwLjQ2QzEzMzguMSAxMzQ2LjQ0IDExNzYuOSAxMjkyLjUyIDEwMjAuOSAxMjIxLjY3QzkzMyAxMTgyLjA2IDgzMiAxMTExLjU2IDgxMS45IDk1Ny4xMzJDNzk5IDg1OC41NCA4MjQuOCA3NTkuMDc1IDgzNy4yIDY2MC4zMDhDODY5LjggNDAwLjEyOCA3OTguNyAxMTAuMjg0IDY2OC4zIC0yOC4wOTQ5QzYzNS45IC02Mi40NzE0IDU5OS4xIC05MC4zOTEgNTc3LjQgLTE0NC42NjFDNTEwLjQgLTMxMi4xOCA2MzkuMyAtNTI2LjQ2NyA2MjcgLTcyOS43NTlDNjIyLjYgLTgwMy4yMjQgNTk5LjYgLTg2OS4wMSA1NzQuNiAtOTI4LjY4OUMzMDAuNCAtMTU4NS44NiAtMjA5LjQgLTE3NDkuNTQgLTYyOC44IC0yMTAzLjZDLTc1MS4yIC0yMjA3LjA4IC04NzEuMSAtMjMzNC4xMSAtOTU1IC0yNTIwLjgzQy0xMDM4LjkgLTI3MDcuNzIgLTEwODEuNCAtMjk2NC41OCAtMTAzNi4xIC0zMTg4LjI5Qy05NzQuMSAtMzQ5NC4xOSAtNzc2LjUgLTM2NDQuMjYgLTU5My43IC0zNzAzLjc2Qy00MTAuOSAtMzc2My4yNyAtMjE1LjYgLTM3NzEuNDcgLTU2IC0zOTM3Ljc3QzExNy42IC00MTE4LjcyIDIxNiAtNDQ1MS4zMiAzNTEgLTQ3MTMuNzdDNDE4LjYgLTQ4NDUuMTcgNDk1LjYgLTQ5NTguOTQgNTc3LjggLTUwNjEuOUwxMjk4LjkgLTU0ODguNzJaIiBmaWxsPSIjQzBDQkREIi8+CjxwYXRoIGQ9Ik0xNzMzLjIgLTYyOTkuOTdMMzA1MyA0ODcuNTUzTDIxMzcuMiAxMDI5LjU1QzIwODYgODc4LjA4NCAyMDA0IDc1Mi45NjggMTkxNC4zIDY2OC4xNjFDMTc3Mi41IDUzNC4xNDUgMTYxMS4zIDQ4MC4yMjQgMTQ1NS4yIDQwOS41NTJDMTM2Ny4zIDM2OS43NjYgMTI2Ni4zIDI5OS40NDMgMTI0Ni4yIDE0NS4wMUMxMjMzLjQgNDYuNDE3NiAxMjU5LjIgLTUzLjA0NzYgMTI3MS41IC0xNTEuODE1QzEzMDQuMSAtNDExLjk5NCAxMjMzIC03MDEuNjY0IDExMDIuNiAtODQwLjIxN0MxMDcwLjIgLTg3NC41OTQgMTAzMy40IC05MDIuNTE0IDEwMTEuNyAtOTU2Ljc4M0M5NDQuNyAtMTEyNC4zIDEwNzMuNiAtMTMzOC41OSAxMDYxLjMgLTE1NDEuNzFDMTA1Ni45IC0xNjE1LjE3IDEwMzMuOCAtMTY4MC45NiAxMDA4LjkgLTE3NDAuNjRDNzM0LjggLTIzOTcuNjMgMjI0LjkgLTI1NjEuMzEgLTE5NC41IC0yOTE1LjM3Qy0zMTYuOSAtMzAxOC44NSAtNDM2LjggLTMxNDUuNzEgLTUyMC43IC0zMzMyLjZDLTYwNC42IC0zNTE5LjMyIC02NDcuMSAtMzc3Ni4xOCAtNjAxLjggLTM5OTkuODlDLTUzOS44IC00MzA1LjYxIC0zNDIuMiAtNDQ1NS44NiAtMTU5LjQgLTQ1MTUuMzZDMjMuMzk5OSAtNDU3NC44NyAyMTguNyAtNDU4My4wNyAzNzguMyAtNDc0OS4zN0M1NTEuOCAtNDkzMC4xNSA2NTAuMiAtNTI2Mi43NSA3ODUuMiAtNTUyNS4wMkM4NTIuOCAtNTY1Ni40MiA5MjkuOCAtNTc3MC4xOSAxMDEyIC01ODczLjE1TDE3MzMuMiAtNjI5OS45N1oiIGZpbGw9IiM4MTkyQjAiLz4KPC9nPgo8ZGVmcz4KPGNsaXBQYXRoIGlkPSJjbGlwMCI+CjxyZWN0IHdpZHRoPSIxOTIwIiBoZWlnaHQ9IjY5OCIgZmlsbD0id2hpdGUiLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K");
+    background-size: cover;
+    background-position: top center;
+
+    position: fixed;
+}
+.card-sign{
+    border-radius: 0.75em;
+}
+.btn-lg {
+    padding: .875rem 1.09375rem;
+    font-size: 1rem;
+    border-radius: .3125rem;
+}
+
+.btn-white {
+    background-color: #fff;
+    border-color: #e7eaf3;
+}
+.avatar-gg{
+    width: 1em;
+    height: 1em;
+}
+
+.line-or {
+    display: flex;
+    flex-direction: row;
+}
+
+.line-or::before, .line-or::after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #e7eaf3;
+    margin: auto;
+}
+.line-or::before {
+    margin-right: 1.5rem;
+}
+
+.line-or::after {
+    margin-left: 1.5rem;
+}
+.form-group {
+    margin-bottom: 1.5rem;
+}
+.form-control-log {
+    height: calc(1.5em + 1.875rem);
+    padding: .875rem 1.09375rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .3125rem;
+}
+
+.form-control-pass{
+    padding-right: 2.625rem !important;
+    border-top-right-radius: .3125rem !important;
+    border-bottom-right-radius: .3125rem !important;
+    z-index: 1;
+}
+.form-control-log:focus{
+    box-shadow: none;
+}
+
+.invalid-fb{
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #ed4c78;
+}
+.show-pass {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: .3125rem;
+    z-index: 3;
+}
+
+/* profile info */
+.main{
+    background-color: #f7faff !important;
+}
+.bg-nav-info{
+    background-image: url("https://htmlstream.com/preview/front-v3.2.2/assets/svg/components/abstract-shapes-20.svg");
+    background-color: #21325b !important;
+    position: absolute;
+    width: 100%;
+}
+
+.bg-content{
+    padding-top: 4em;
+    padding-bottom: 8rem;
+}
+.container-content{
+    padding-top: 10rem;
+}
+.breadcrumb{
+    background-color: transparent;
+
+}
+
+.breadcrumb-item{
+    color: #fff;
+}
+
+.btn-logOut{
+    color: #f7faff;
+    background-color: rgba(247, 250, 255, 0.1);
+    border-color: transparent;
+}
+
+.avatar-info{
+    width: 6rem;
+    height: 6rem;
+}
+.avatar-img {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.btn{
+    padding: 0.7rem 1rem;
+    box-shadow: none;
+}
+.btn-upload {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+.file-attachment-btn-label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+    cursor: inherit;
+    opacity: 0;
+}
+.card{
+    border-width: 0;
+    box-shadow: 0px 12px 15px rgba(140, 152, 164, 0.1);
+}
+
+.bg-info-footer{
+    background-color: #21325b !important;
+}
+
+.btn-icon-footer {
+
+    color: #f7faff;
+    background-color: rgba(247, 250, 255, 0.1);
+    border-color: transparent;
+    font-size: 0.75rem;
+    width: 1.75rem;
+    height: 1.75rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-icon-footer:hover, .btn-dd:hover{
+
+    color: #21325b ;
+    background: #f7faff;
+}
+
+.nav-link{
+    color: rgba(255, 255, 255, 0.7);
+    padding-left: 0px;
+}
+
+.nav-link:hover{
+    color: rgba(255, 255, 255, 255);
+}
+
+.dropdown-item-icon {
+    display: inline-block;
+    text-align: center;
+    opacity: 0.7;
+    font-size: 0.75rem;
+    min-width: 1rem;
+    max-width: 1rem;
+    margin-right: 0.25rem;
+}
+.file-attachment-btn {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+.content-footer-bottom{
+    opacity: 0.4;
+}
+
+.btn-dd, .btn-add{
+    font-size: 0.75rem;
+    font-weight: 400;
+    padding: 0.275rem 0.75rem;
+
+}
+.btn-dd{
+    color: #f7faff;
+    background-color: rgba(247, 250, 255, 0.1);
+}
+
+.btn-add:hover{
+    text-decoration: none;
+    background-color: rgb(241, 241, 255);
+}

@@ -1,0 +1,28 @@
+@media (max-width: 1200px){
+
+}
+
+@media only screen and (min-width:1170px) {
+
+}
+
+@media (max-width:999px) {
+   .header-mobile{
+       display: block;
+   }
+   .header{
+    display: none;
+    }
+
+    .card-post-wrap{
+        padding: 20px;
+    }
+}
+
+@media (max-width:768px) {
+
+}
+
+@media only screen and (max-width:479px) {
+
+}

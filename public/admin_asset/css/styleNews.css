@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: "Open Sans",sans-serif;
+    font-size: .875rem;
+    color: #677788;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: #1e2022;
+}
+
+.btn-addPost{
+    border: 1px solid rgb(255, 60, 60);
+    color: rgb(255, 60, 60);
+}
+.btn-addPost:hover{
+    background-color:rgb(255, 60, 60);
+    color: white;
+}
+.btn-post-apply{
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+.imagePost{
+    width: 7rem;
+    height: 7rem;
+}
+.cke_chrome {
+    width: 100% !important;
+}
+.show-on{
+    background: rgb(255, 248, 144);
+    
+}
+.show-off{
+    background: rgb(117, 117, 117);
+    color: white;
+}

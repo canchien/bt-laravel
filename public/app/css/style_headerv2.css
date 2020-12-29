@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    font-size: 16px;
+    color: #707b8e;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #2c234d;
+}
+
+.container-info{
+    padding: 1.5em;
+    border-bottom: 1px solid #ececec;
+}
+.name-account{
+    font-weight: bold;
+}
+
+.container-categories{
+    border-bottom: 1px solid #ececec;
+}
+
+.nav-link {
+    line-height: 30px;
+    font-weight: 500;
+}
+.header-logo img {
+    height: auto;
+}
+
+

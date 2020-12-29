@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    font-family: "Open Sans",sans-serif;
+    font-size: .875rem;
+    color: #677788;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: #1e2022;
+}
+
+/* nav-vertical */
+
+.navbar-vertical{
+    max-height: 100%;
+    width: 18%;
+
+    position: fixed;
+    height: 100%;
+
+    z-index: 1;
+
+
+    overflow-x: hidden;
+
+    border-style: solid;
+    border-left: 0.7rem;
+    border-color: #e7eaf3;
+}
+.navbar-brand-logo {
+    width: 100%;
+    min-width: 6.5rem;
+    max-width: 6.5rem;
+}
+#nav, .nav-slt{
+    list-style-type: none;
+}
+
+#nav .sub-icon::after{
+    content: '\203A';
+    float: right;
+    transform: rotate(90deg);
+    margin-right: 1rem;
+}
+#nav .dropdown:hover .sub-icon::after{
+    transform: rotate(270deg);
+}
+
+.left-nav ul li a{
+    color: #313746;
+    display: block;
+    padding: 20px 0px;
+    text-decoration: none;
+}
+.main {
+    margin-left: 18%;
+
+    width: 80%;
+
+  }
+
+.main-content{
+    padding: 0px 3rem;
+    position: relative;
+    margin: 4rem;
+
+
+}
+
+.navbar-nav-wrap {
+    height: 4rem;
+    border-width: 0 0 .0625rem 0;
+    border-style: solid;
+    border-color: #e7eaf3;
+    position: fixed;
+    width: 100%;
+    background: #ffffff;
+    z-index: 2;
+}
+.avatar-sm, .avatar-img{
+    height: 100%;
+}
+.avatar{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.avatar-sm{
+    width: 2.1875rem;
+    height: 2.1875rem;
+}
+.avatar-circle .avatar-img{
+    border-radius: 50%;
+}
+
+.content-title{
+    border-width: 0 0 .0625rem 0;
+    border-style: solid;
+    border-color: #e7eaf3;
+}
+.menu{
+    margin-right: 20rem;
+    padding-top: 10px;
+}
+.btn-edit{
+    border-color: #e7eaf3;
+    color: #677788;
+    padding: 0.5rem 1rem;
+    font-size: 0.7rem;
+}
+.dropdown-account{
+    margin-top: -10px;
+}
+
+.avatar-info {
+    width: 6rem;
+    height: 6rem;
+}
+.avatar-img {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.file-attachment-btn-label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+    cursor: inherit;
+    opacity: 0;
+}
+#addUserProfile{
+    padding: 2rem;
+}
+.invalid-fb {
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #ed4c78;
+}
+
+#datatableSearch:focus{
+    box-shadow: none;
+}
+.file-attachment-btn {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+.mul-select{
+    width: 100%;
+}
+
+.title-info{
+    color: rgb(109, 109, 109);
+    font-weight: bold;
+}
+.color-status{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
